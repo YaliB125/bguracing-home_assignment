@@ -9,8 +9,6 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /ros2_ws
 COPY ./src /ros2_ws/src
 COPY ./data /ros2_ws/data
-# RUN . /opt/ros/jazzy/setup.sh && \
-#     colcon build --symlink-install || true 
 RUN echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
 RUN echo "source /ros2_ws/install/setup.bash" >> ~/.bashrc
 CMD ["bash"]
