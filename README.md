@@ -52,7 +52,7 @@ The system is composed of two main ROS nodes:
     Open your terminal and run:
     git clone[https://github.com/YaliB125/bgracing-home_assignment.git](https://github.com/YaliB125/bgracing-home_assignment.git)
 
-    cd bguracing-home_assignment
+    cd bgracing-home_assignment
 
 
 2.  **Build and Run (using Docker Compose):**
